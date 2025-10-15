@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Conecta Voluntário — ONG Institucional</title>
+  <meta name="description" content="Portal institucional completo da ONG Conecta Voluntário, com áreas de projetos, voluntariado, captação e transparência." />
+  <meta name="keywords" content="ONG, voluntariado, doações, projetos sociais, transparência, impacto social" />
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+  <div class="logo">
+    <div class="mark">CV</div>
+    <div><strong>Conecta Voluntário</strong><br><small style="color:var(--muted)">ONG - presença institucional</small></div>
+  </div>
+  <nav class="nav">
+    <select id="roleSelect">
+      <option value="visitor">Área Institucional</option>
+      <option value="projects">Gestão de Projetos</option>
+      <option value="volunteers">Engajamento de Voluntários</option>
+      <option value="donations">Captação de Recursos</option>
+      <option value="communication">Comunicação e Transparência</option>
+    </select>
+    <button class="btn" id="applyBtn">Acessar</button>
+  </nav>
+</header>
+<main class="container">
+  <div class="grid">
+    <aside class="sidebar">
+      <div style="font-weight:700;margin-bottom:10px">Navegação</div>
+      <div id="menu" class="menu"></div>
+    </aside>
+    <section id="content"></section>
+  </div>
+</main>
+<footer>
+  © <span id="year"></span> Conecta Voluntário — Todos os direitos reservados
+</footer>
+<script src="script.js"></script>
+</body>
+</html>
