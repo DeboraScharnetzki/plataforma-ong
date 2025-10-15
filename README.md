@@ -46,27 +46,6 @@ A plataforma foi desenvolvida para atender ONGs com diferentes públicos — adm
 - **Segurança:** validação de formulários, pronto para HTTPS
 - **SEO:** meta tags e estrutura semântica otimizadas
 
-## 🚀 Como Hospedar no GitHub Pages
-
-1. Baixe o arquivo `conecta-voluntario-site.zip`
-2. Extraia os arquivos `index.html`, `style.css` e `script.js`
-3. Crie um repositório **conecta-voluntario** no seu GitHub
-4. Faça upload dos arquivos extraídos
-5. Vá em **Settings → Pages → Source → Branch: main /root → Save**
-6. O site ficará disponível em:
-   `https://seuusuario.github.io/conecta-voluntario/`
-
-## 🧭 Estrutura de Pastas
-
-```
-conecta-voluntario/
-│
-├── index.html        # Página principal (estrutura HTML)
-├── style.css         # Estilos e layout responsivo
-├── script.js         # Lógica e navegação dinâmica
-└── assets/           # (opcional) Imagens e mídias da ONG
-```
-
 ## 👩‍💻 Tecnologias Utilizadas
 
 - HTML5 Semântico
@@ -82,7 +61,7 @@ conecta-voluntario/
 - [ ] Dashboard com métricas reais
 - [ ] Sistema de envio automático de certificados
 
-## ❤️ Agradecimentos
+## ❤️ Agradecimento
 
 Agradecemos por visitar o projeto **Conecta Voluntário**!
 Esperamos que ele inspire outras iniciativas a promover impacto social positivo.
